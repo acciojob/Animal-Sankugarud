@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 *{
-margin: 0;
+	margin: 0px;;
+	padding: 0px;
 }
 .container{
 	background-color: rgb(68,68,68);
@@ -9,21 +10,31 @@ margin: 0;
 	width: 70%;
  
 }
-header{
-  padding:20px;
+#photo-heading{
+  padding:20px 0px 0px 15px;
 	text-align: center;
 	font-size: 100%;
- 
+
 }
 .row{
 	display: flex;
 	justify-content: center;
+	
+}
+.row2{
+	display: flex;
+	justify-content: space-around;
+}
+.row3{
+	display: flex;
+	justify-content: space-around;
+	
 }
 img{
-	width: 28%;
-	padding: 15px;
+	width: 25%;
 	border-radius: 15%;
+	padding: 15px;
 }	
-.animal-photos{
-	padding:15px;
+#animal-photos{
+	padding: 10px
 }
